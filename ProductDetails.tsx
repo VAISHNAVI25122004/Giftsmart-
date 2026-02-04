@@ -111,7 +111,6 @@ export default function ProductDetails() {
                                             key={variant}
                                             onClick={() => {
                                                 setSelectedColor(variant);
-                                                // Switch image if available for this index (Only for Colors or if 1-to-1 mapping exists)
                                                 // Switch image if available for this index
                                                 if (idx < product.images.length) {
                                                     setActiveImage(idx);
