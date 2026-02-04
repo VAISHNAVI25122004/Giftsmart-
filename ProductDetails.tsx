@@ -68,17 +68,6 @@ export default function ProductDetails() {
                     <div className="aspect-square rounded-2xl overflow-hidden bg-gray-100 shadow-lg">
                         <img src={product.images[activeImage]} alt={product.title} className="w-full h-full object-cover" />
                     </div>
-                    <div className="flex space-x-4 overflow-x-auto pb-2">
-                        {product.images.map((img, idx) => (
-                            <button
-                                key={idx}
-                                onClick={() => setActiveImage(idx)}
-                                className={`w-20 h-20 rounded-lg overflow-hidden border-2 ${activeImage === idx ? 'border-primary' : 'border-transparent'}`}
-                            >
-                                <img src={img} alt="" className="w-full h-full object-cover" />
-                            </button>
-                        ))}
-                    </div>
                 </div>
 
                 {/* Info */}

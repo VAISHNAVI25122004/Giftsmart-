@@ -63,11 +63,7 @@ export const MOCK_PRODUCTS: Product[] = [
             'https://plus.unsplash.com/premium_photo-1675063046832-a2e1cbb7ddb1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9zZSUyMGNhbmRsZXxlbnwwfHwwfHx8MA%3D%3D'
         ],
         category_id: '4',
-        stock_quantity: 15,
-        variants: {
-            type: 'Flavor',
-            options: ['Lavender', 'Vanilla', 'Rose']
-        }
+        stock_quantity: 15
     },
     {
         id: '5',
